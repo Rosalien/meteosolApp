@@ -1,0 +1,29 @@
+Package: meteosolApp
+Title: Shiny app for manage data from biometeorological stations
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "jean-baptiste",
+           family = "paroissien",
+           role = c("aut", "cre"),
+           email = "jean-baptiste.paroissien@cnrs-orleans.fr")
+Description: Compile and check quality data from biometeorological station of SNO-Tourbière.
+License: GPL-3
+Imports: 
+    config,
+    golem,
+    shiny,
+    toolboxMeteosol (>= 1.0),
+    shinydashboard,
+    DT,
+    data.table,
+    xts,
+    wesanderson,
+    dygraphs,
+    reshape,
+    shinyBS,
+    pkgload
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.1.1
+Remotes: 
+    Rosalien/toolboxMeteosol
