@@ -1,6 +1,6 @@
 Package: meteosolApp
 Title: Shiny app for manage data from biometeorological stations
-Version: 0.0.0.9000
+Version: 1.0
 Authors@R: 
     person(given = "jean-baptiste",
            family = "paroissien",

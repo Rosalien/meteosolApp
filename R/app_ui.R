@@ -15,7 +15,8 @@ app_ui <- function(request){
   dashboardPage(
     dashboardHeader(title = "Biometeorological data management"),
     dashboardSidebar(
-      conditionalPanel(id="menu1",
+      
+      sidebarMenu(id="menu1",
         menuItem("Compile data", tabName = "compileData", icon = icon("th")),
         conditionalPanel(
                   condition = "input.menu1 == 'compileData'",

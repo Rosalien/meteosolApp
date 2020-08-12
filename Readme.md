@@ -21,3 +21,18 @@ devtools::install_github("Rosalien/meteosolApp")
 ``` r
 meteosolApp::run_app()
 ```
+
+### Docker
+
+Build : 
+
+```bash
+
+docker build -t meteosolapp .`
+```
+
+Run :
+
+```bash
+docker run meteosolapp
+```
