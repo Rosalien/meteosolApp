@@ -7,7 +7,7 @@ Authors@R:
            role = c("aut", "cre"),
            email = "jean-baptiste.paroissien@cnrs-orleans.fr")
 Description: Compile and check quality data from biometeorological station of SNO-Tourbière.
-License: GPL-3
+License: GPL-3 + file LICENSE
 Imports: 
     config,
     golem,
