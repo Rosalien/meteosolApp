@@ -17,12 +17,12 @@ app_ui <- function(request){
     dashboardSidebar(
       
       sidebarMenu(id="menu1",
-        menuItem("Compile data", tabName = "compileData", icon = icon("th")),
-        conditionalPanel(
-                  condition = "input.menu1 == 'compileData'",
-                  fileInput('compileFile', 'Choose path data',
-                            accept = '.csv')
-        ),
+        #menuItem("Compile data", tabName = "compileData", icon = icon("th")),
+        #conditionalPanel(
+         #         condition = "input.menu1 == 'compileData'",
+          #        fileInput('compileFile', 'Choose path data',
+           #                 accept = '.csv')
+       # ),
         menuItem("Check data", tabName = "timeTrend", icon = icon("dashboard")),
       conditionalPanel(
                   condition = "input.menu1 == 'timeTrend'",
@@ -49,9 +49,9 @@ app_ui <- function(request){
           fluidRow(
             mod_timetrendUI("mod_timetrendUI_1")
           )
-        ),
+        )
       # Second tab content
-        tabItem(tabName = "widgets",h2("Widgets tab content"))
+      #  tabItem(tabName = "widgets",h2("Widgets tab content"))
       )
     )
   )

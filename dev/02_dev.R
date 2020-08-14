@@ -20,8 +20,7 @@ sapply(listpaquets,usethis::use_package)
 usethis::use_dev_package('toolboxMeteosol')
 
 ## Files don't used ----
-usethis::use_build_ignore(c("dbconfLocal.yaml","dbconfProd.yaml"))
-usethis::use_build_ignore("Readme.R")
+usethis::use_build_ignore("Readme.md")
 
 
 ## Add modules ----
